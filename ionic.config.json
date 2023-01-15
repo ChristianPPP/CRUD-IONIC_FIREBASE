@@ -1,0 +1,7 @@
+{
+  "name": "CRUD-FIRE",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

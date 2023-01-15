@@ -1,0 +1,12 @@
+<form (ngSubmit)="formSubmit()" class="ion-padding">
+  <ion-item fill="solid" class="ion-margin-bottom">
+    <ion-input type="text" [(ngModel)]="persona.nombre" placeholder="Nombre" name="nombre"></ion-input>
+  </ion-item>
+  <ion-item fill="solid" class="ion-margin-bottom">
+    <ion-input [(ngModel)]="persona.apellido" name="apellido" placeholder="Apellido"></ion-input>
+  </ion-item>
+  <ion-item fill="solid" class="ion-margin-bottom">
+    <ion-input type="number" [(ngModel)]="persona.edad" name="edad" placeholder="Edad"></ion-input>
+  </ion-item>
+  <ion-button type="submit" expand="block">Crear</ion-button>
+</form>
